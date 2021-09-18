@@ -18,12 +18,11 @@ body{
 }
 
 h1{
-    background: repeat;
     background-color: #4F4F4F;
-    color: #ffff;
+    color: #000;
     text-align: center;
+    text-shadow: 0 1px 2px #000;
     font-family: 'Indie Flower', cursive;
-    position: relative;
 }
 
 
@@ -39,7 +38,8 @@ section{
     height: 100px;
     margin: 40px auto;
     width: 400px;
-    
+    font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 ul{
@@ -67,7 +67,7 @@ ul{
 p{
     text-align: justify;
     margin: 5px;
-    font-size: 25px;
-    font-family: 'Shadows Into Light', cursive;    
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
 }
 
