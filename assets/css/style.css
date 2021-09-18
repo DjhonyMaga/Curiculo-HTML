@@ -1,0 +1,28 @@
+#foto_perfil{
+    margin: 10px;
+    width: 300px;
+    border-radius: 100%;
+    max-width: 200px;
+    box-shadow: 2px 3px 10px black;
+    border: 2px solid black
+}
+
+h1{
+    margin: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+#nome{
+    text-align: right;
+}
