@@ -21,7 +21,7 @@
                 <img id="foto_perfil" src="assets/imagens/perfil.jpg">
             </td>
             <td>
-                <p class="tip">profissional que tem entre suas responsabilidades a montagem, 
+                <p id="perfil">profissional que tem entre suas responsabilidades a montagem, 
                 acabamento e manutenção de computadores, além da identificação
                 e correção de problemas em aparelhos eletrônicos. Conhecimento em desemvolvimento web: HTML, CSS, JavaScrip, PHP entre outros
                 formado a 3 anos em Londres após retornando para o Brasil para seguir careira no em seu pais de origem.</p>
@@ -31,32 +31,60 @@
     <table>
         <tr>
             <td>
+                <img id="whatsapp" src="data:image/png;base64,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">
+            </td>
+            <td>
+                <p id="social">(55) 98888-0000</p>
+            </td>
+            <td>
+                <img id="instagram" src="data:image/png;base64,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">
+            </td>
+            <td>
+                <p id="social">@djonatan</p>
+            </td>
+            <td>
+                <img id="skype" src="data:image/png;base64,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">
+            </td>
+            <td>
+                <p id="social">Djonatan - Trabalho</p>
+            </td>
+            <td>
+                <img id="email" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABBpJREFUaEPtl19IVHkUx8+ZOzO2lTMKZqWlsqtlVMTuWJkP/aGCgpZtl8h92SAIoQdjWfr7sNUapSX10L+HEAp6yYqyEIqCZdsdTc3chSkyK8loZl0ozLL03pn7O8tPunVnuuPvXiebMeY+DfM7v3PO53y/v9+dQRjlD47y/iEJEG8FkwokFYhxAp+fhVqnTcuQJakCGVtNAG5E9CHRoQX375+NcViWtoduzFpLgL8Q0Wwi7JUALkhqcBcua3+uTxSmwGDziI2IWGBQ7bxTUTYUdXb2WurEYjBd97hDDqUGANZ8uJV12ENqiR4iDKBhxozjSLQxak3ERzai0uL29tsW+zIVrvw+22OzQS0BfBVtAyIctS/ylWvrYQDe6dP/tSFOElSTc9NcW7KbWo6Y6spkkL94XvmEqv5qBEgRbAk4FvuyDQEaCgsZgvjtnJueCgzwEpOc63O93h6TPRqGPZ8/3zUgsRNAUJpZOSBMRQTkXOKzGQI0FhaSMAMAcAD+EGEXSPjjlIbmJjP7ImMCxZ5vCKVaAMrna2YAeJxjse+dc8IsZBWAJ0OAICH+mtXYcgABTA2A7wuUzC0jBocB31smLgDaVM1aSm+ZSEViBjiydN0/Hn/LHJEdNAtFxoksFWmZ4QD8HRzbOm9581zDM5BT5aeiLm+o/K99akpIjnobRAMYylJGlrECEGQ4cKw/Q76huNz139cZnwEOwJNm9P0HP/9RwfKftb877fpiQwFEWmp8MKhqt4xI2WgWehJyyJWvJ6d0M8dgCiEAD5KYCqVtNfTtnbP8oIYddjMAg7cUQOdbVb4UNR/tFromu6DmTQYEdS2YAtAKFnV5adOfe2WnqozRvjMLYKZpfYxeAZlh8Gh/psOrjP8gjSUAzVI7r27uzuwLDL6lRxqgW7X3/NaXla5ZJpLAMoBmqbKG6o6Fj64X5KWnjsjPcK5AszLu8cHXE/P0lvkoAFqSFffqfLs6TuUAgNuqRQTxvXU7Up9eUV0zRXmHpYA+adPlVXnE7GcAoVhUzMw6AbQRqKUbt+Y8MBMfM8CT7dnY6vE4Jjtsewhhq5kfgNEaI4AT/Wk9mwquPJRXXeT/ocTPRwHQyvhLir4DhicBIV1c+n0EA3ppIyzLbrpVq30bFwBePFDyda4VS2mWmXqz7aEeOm4AvAmzltJbJlKxuAKILGVkmYQEMLJUNMskLABv7MHK/JSxvWnV/PMb94st/JYRHfKEsJCoyaHWkwDa/wHRFPmLTBQznPWkAqNfgUq/HxCyRPLH1UKE/vofLk7Regzzcs5+fxUQbEtoAKSq+tWXdhgCzNx91/nqi7QKYPDTUErEQwEiCNgAT48J2XeeW3tOMQQQTT4R10fkOvyUoEmATzlto1pJBZIKxDiBUW+h/wESFRBPUe8QyQAAAABJRU5ErkJggg==">
+            </td>
+            <td>
+                <p id="social">djonatan@gmail.com</p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
                 <section>
-                    <h2>Informações Pessoais</h2>
+                    <h2 id="pessoais">Informações Pessoais</h2>
                     <ul>
-                        <li>Sexo: Masculino</li>
-                        <li>Idade: 21 anos</li>
-                        <li>Profissão: Técnico telecom</li>
+                        <li>Sexo: Masculino;</li>
+                        <li>Idade: 21 anos;</li>
+                        <li>Profissão: Técnico telecom.</li>
                     </ul>
                 </section>
             </td>
             <td>
                 <section>
-                    <h2>Informações para Contato</h2>
+                    <h2 id="contato">Informações para Contato</h2>
                     <ul>
-                        <li>Telefone: (55) 98888-0000</li>
-                        <li>E-mail: djonatan@bol.com.br</li>
-                        <li>Endereço: Rua das Flores 500, Canelinha - SC </li>
+                        <li>Telefone: (55) 98888-0000;</li>
+                        <li>E-mail: djonatan@bol.com.br;</li>
+                        <li>Endereço: Rua das Flores 500, Canelinha - SC. </li>
                     </ul>
                 </section>
             </td>
             <td>
                 <section>
-                    <h2>Formação</h2>
+                    <h2 id="formacao">Formação</h2>
                     <ul>
-                        <li>Ensimo médio completo</li>
-                        <li>Cursando ensino superior em TI</li>
-                        <li>Universidade dos estudos</li>
+                        <li>Ensimo médio completo;</li>
+                        <li>Cursando ensino superior em TI;</li>
+                        <li>Universidade dos estudos.</li>
                     </ul>
                 </section>
             </td>
@@ -64,28 +92,28 @@
         <tr>
             <td>
                 <section>
-                    <h2>Trabalho Voluntário</h2>
+                    <h2 id="voluntario">Trabalho Voluntário</h2>
                     <ul>
-                        <li>Escoteiros do Brasil</li>
-                        <li>Hospital da saude</li>
+                        <li>Escoteiros do Brasil;</li>
+                        <li>Hospital da saude.</li>
                     </ul>
                 </section>
             </td>
             <td>
                 <section>
-                    <h2>Linguas Faladas</h2>
+                    <h2 id="linguas">Linguas Faladas</h2>
                     <ul>
-                        <li>Inglês</li>
-                        <li>Alemão</li>
+                        <li>Inglês;</li>
+                        <li>Alemão.</li>
                     </ul>
                 </section>
             </td>
             <td>
                 <section>
-                    <h2>Experiência Profissional</h2>
+                    <h2 id="trabalho">Experiência Profissional</h2>
                     <ul>
-                        <li>Construção cívil: 4 anos</li>
-                        <li>Instalador reparador de comunicação de dados: 4 anos, atual</li>
+                        <li>Construção cívil: 4 anos;</li>
+                        <li>Instalador reparador de comunicação de dados: 4 anos, atual.</li>
                     </ul>
                 </section>
             </td>
