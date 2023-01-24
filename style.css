@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./assets/imagens/Wallpaper\ -\ 2560x1080.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(151, 151, 151);
+    height: 35vh;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.header-button #perfil {
+    width: 25vh;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+a#git, a#link, a#insta {
+    margin-top: 13vh;
+    margin-left: 2vh;
+    height: 22px;
+    border: 2px solid #fff;
+}
+
+a:hover {
+    scale: 1.1;
+}
+
