@@ -1,0 +1,42 @@
+/* responsiveidade header */
+@media (max-width: 546px) {
+    .header {
+        background-image: url(./assets/imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+    }
+
+    .header-button{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #git, #link, #insta {
+        margin-top: 25px;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    #git,#link, #insta {
+        margin-top: 25px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    #git,#link, #insta {
+        margin-top: 25px;
+        height: 29px;
+    }
+}
+/* final header */

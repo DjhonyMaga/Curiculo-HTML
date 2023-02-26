@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(./assets/imagens/Wallpaper\ -\ 2560x1080.png);
+    background-image: url(./assets/imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,14 +37,18 @@ header {
     border: 5px solid #fff;
 }
 
-a#git, a#link, a#insta {
-    margin-top: 13vh;
-    margin-left: 2vh;
+.social {
+    display: flex;
+    gap: 10px;
+    margin-left: 2%;
+}
+
+#git, #link, #insta {
+    margin-top: 15vh;
     height: 22px;
     border: 2px solid #fff;
 }
 
-a:hover {
+.social a:hover {
     scale: 1.1;
 }
-
