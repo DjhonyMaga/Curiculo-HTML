@@ -52,3 +52,12 @@ header {
 .social a:hover {
     scale: 1.1;
 }
+
+section {
+    margin-top: 10%;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
