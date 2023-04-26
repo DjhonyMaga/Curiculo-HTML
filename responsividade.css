@@ -1,4 +1,4 @@
-/* responsiveidade header */
+/* responsive header */
 @media (max-width: 546px) {
     .header {
         background-image: url(./assets/imagens/fundo.jpg);
@@ -39,4 +39,34 @@
         height: 29px;
     }
 }
-/* final header */
+/* finish header */
+
+/* section responsive */
+
+@media(max-width: 992px) {
+    .dados{
+        margin-top: 20%;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 520px) {
+    .dados{
+        flex-direction: column;
+        margin-top: 25%;
+    }
+}
+
+@media(max-width: 448px) {
+    .dados {
+        margin-top: 40%;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .dados {
+        margin-top: 50%;
+    }
+}
